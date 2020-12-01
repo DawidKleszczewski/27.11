@@ -1,3 +1,9 @@
 .navbar a{
-    color: #ffffff;
+    color: #fff;
+}
+.navbar-nav li{
+    color: #000;
+}
+.navbar{
+    width: 100%;
 }
