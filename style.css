@@ -7,3 +7,31 @@
 .navbar{
     width: 100%;
 }
+body{
+    background-color: rgba(100, 148, 237, 0.623);
+}
+.bgimg{
+    background-image: radial-gradient(#008c9e,#095092);
+    height: 100%;
+    text-align: center;
+}
+.lista-body{
+    list-style-type: none;
+    padding: 0;
+}
+.lista2{
+    list-style-type: none;
+    padding: 0;
+}
+.img1{
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+    text-align: center;
+}
+.lista1{
+    padding: 0 10% 0 10%;
+}
+.body{
+    font-size: 20px;
+}
