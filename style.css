@@ -18,6 +18,9 @@ body{
     list-style-type: none;
     padding: 0;
 }
+.img{
+    border-radius: 5%;
+}
 .img1{
     width: 80%;
     height: 80%;
@@ -29,7 +32,12 @@ body{
 .body{
     font-size: 20px;
 }
-
 .img2{
     width: 100%;
+}
+.img3{
+    float: left;
+}
+.img4{
+    border-radius: 2%;
 }
