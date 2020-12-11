@@ -41,3 +41,12 @@ body{
 .img4{
     border-radius: 2%;
 }
+body: :-webkit-scroolbar {
+    width: 0.25rem;
+    }
+    body: :-webkit-scrollbar-track {
+    background : #fff;
+    }
+    body: :-webkit-scrollbar-thumb {
+    backround : #fff;
+    }
