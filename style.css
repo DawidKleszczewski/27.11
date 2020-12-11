@@ -20,6 +20,7 @@ body{
 }
 .img{
     border-radius: 5%;
+    padding: 0;
 }
 .img1{
     width: 80%;
@@ -41,12 +42,20 @@ body{
 .img4{
     border-radius: 2%;
 }
-body: :-webkit-scroolbar {
-    width: 0.25rem;
-    }
-    body: :-webkit-scrollbar-track {
-    background : #fff;
-    }
-    body: :-webkit-scrollbar-thumb {
-    backround : #fff;
-    }
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(85, 122, 245); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+}
+.bg-color{
+    background-color: rgb(2, 68, 129);
+}
